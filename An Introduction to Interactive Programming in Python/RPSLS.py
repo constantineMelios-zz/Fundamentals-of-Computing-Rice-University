@@ -42,7 +42,7 @@ def rpsls(player_choice):
     print "Computer chooses " + comp_choice
     
     result = (comp_number - player_number) % 5
-    print result
+    
     if result == 0:
         print "Player and computer tie!"
     elif result < 3:
